@@ -14,7 +14,7 @@ function renderProducts(data){
                <img name="card-image" src=${products.thumbnail} alt="${products.title}">
             <h3>${products.title}</h3>
             <div class="card__category">
-            <p>⭐${products.rating} </p>
+           
             <p>(${products.discountPercentage})</p>
             
             </div>
